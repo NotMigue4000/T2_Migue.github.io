@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Segundo parcial</title>
+<link rel="stylesheet" type="text/css" href="diseños.css" title="miEjemplo" media="all" />
+</head>
+<body>
+<header>
+  <h1>¡Apliaciones móviles para reservar tu hotel ideal!</h1>
+  <h2>Aprende el giro de negocios para emprender de manera adecuada </h2>
+</header>
+<nav> 
+<p><a href="index.html">Inicio</a></p>
+<p><a href="ventas.html">Ventas</a></p>
+<p><a href="nosotros.html">Acerca de Nosotros</a></p>
+<p><a href="contacto.html">Contáctanos</a></p>
+</nav>
+<section>
+
+
+	<div class="contact_form">
+
+		<div class="formulario">			
+      <h1>Formulario de contacto</h1>
+				<h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+					<form action="submeter-formulario.php" method="post">				
+
+						
+								<p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+								</p>
+							
+								<p>
+									<label for="email" class="colocar_email">Email
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+								</p>
+						
+								<p>
+									<label for="telefone" class="colocar_telefono">Teléfono
+									</label>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+								</p>		
+							
+								<p>
+									<label for="website" class="colocar_website">Sitio web
+									</label>
+										<input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+								</p>		
+							
+								<p>
+									<label for="asunto" class="colocar_asunto">Asunto
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+								</p>		
+							
+								<p>
+									<label for="mensaje" class="colocar_mensaje">Mensaje
+										<span class="obligatorio">*</span>
+									</label>                     
+                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                               	</p>	  								
+							
+								<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+								<p class="aviso">
+									<span class="obligatorio"> * </span>los campos son obligatorios.
+								</p>					
+						
+					</form>
+		</div>	
+	</div>
+</section>
+<aside>
+   <div id="anuncio1">
+      <h1>¿Qué esperas para tener las últimas novedades sobre el giro de negocios hoteleros?</h1>
+      <h2>¡Inscríbete!</h2>
+      <p>Curso de desarrollo y logística de aplicaciones móviles.<p>
+      <p>Interesados llamar al telefono 5188-1938 ó 
+      contactar en <a href="mailto: jdepazc3@miumg.edu.gt">jdepazc3@miumg.edu.gt</a></p>
+    </div>
+</aside>
+<footer>
+   <h2>José Miguel De Paz Calderón</a></h2>
+   <br/>
+</footer>
+</body>
+</html>
